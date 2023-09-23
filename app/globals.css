@@ -2,22 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
 
-@media (prefers-color-scheme: dark) {
+/* :root {
+  --Light-Cyan: hsl(193, 38%, 86%);
+  --Neon-Green: hsl(150, 100%, 66%);
+
+  --Grayish-Blue: hsl(217, 19%, 38%);
+  --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+  --Dark-Blue: hsl(218, 23%, 16%);
+} */
+
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+} */
 
-body {
+/* - Mobile: 375px
+- Desktop: 1440px */
+
+/* body {
   color: rgb(var(--foreground-rgb));
+  background: hsl(var(--Dark-Grayish-Blue));
   background: linear-gradient(
       to bottom,
       transparent,
@@ -25,3 +34,15 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+h1{
+  color: hsl(var(--Neon-Green));
+}
+
+.advice{
+  background-color: hsl(var(--Dark-Blue));
+} */
+
+/* .quote{
+  font-size: 28px;
+} */
